@@ -1,0 +1,515 @@
+/*::-webkit-scrollbar {
+  width: 0;   Remove scrollbar space /
+  background: transparent;  / Optional: just make scrollbar invisible 
+}*/
+
+/*WHOLE PAGE*/
+
+*{
+	/*overflow-x: hidden;*/
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*BODY*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*NAVBAR*/
+
+#navbar{
+	
+	margin-top: 0px;
+	background-color: white;
+	top: 0;
+	position: sticky;
+	z-index: 999;
+	box-shadow: 0 0 30px 5px lightgray;
+}
+
+.horizontal-list{
+	list-style: none;
+	text-align:center;
+	padding-left: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 7px 7px 7px 10px;
+	font-weight: 100;
+	font-size: 20px; /*15%*/
+}
+
+.horizontal-list li a{
+	text-decoration: none;
+}
+
+#navul li a{
+	color: rgba(92, 92, 92);
+}
+
+#navul li a:hover{
+	font-weight: 900;
+	color: black;
+	border-bottom: 1.5px solid black;
+	transition: color 0.5s , border-bottom 2s ;
+}
+
+
+/*2ND HEADER with the mash image*/
+
+#body-header{
+	height: 80vh;
+	opacity: 1 ;
+	background-image: url(./stuff/mash1.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*HARSHITA KAMRA*/
+
+#my-name, h2{
+	margin-bottom: 0px;
+	font-weight: 1000;
+	font-size: 5.5rem; /* 5.5rem*/
+	color: rgba(245,140,103,255);
+	font-family: 'Dancing Script', cursive;
+}
+
+/*ARTIST CODER PHOTOGRAPHER*/
+
+#info{
+	color: white;
+	font-size: 2rem;
+	font-style: bold;
+	text-align: center;
+	padding: 6.5%;
+}
+
+#info h6{
+	font-size: 1.9rem;
+	background-color: black;
+	display: inline;
+}
+
+/*MY PORTRAIT*/
+
+#my-img{
+	margin-bottom: 20px;
+	height: 30vh;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 5px rgb(113 113 113); /*rgb(148 153 110)*/
+}
+
+/*SOCIAL MEDIA ICONS*/
+
+#social{
+	display: inline;
+}
+
+#social li a{
+	color: floralwhite;
+	font-size: 20px;
+}
+
+#social li a:hover{
+	color: rgba(245,140,103,255);
+	transition: color 0.5s ;
+	/*box-shadow: 0 0 7px 2px floralwhite;*/
+}
+
+/*ABOUT SECTION*/
+
+#para{
+	padding: 20px 140px 20px 140px;
+	text-align: justify;
+	/*text-align: center;*/
+	font-size: 1.5em;
+}
+
+#about h2{
+	text-align: center;
+	margin-top: 6vh;
+	font-size: 3rem;
+	margin-bottom: 4vh;
+}
+
+/*EXPERIENCE SECTION*/
+
+#experience h2{
+	text-align: center;
+	margin-top: 6vh;
+	font-size: 3rem;
+	margin-bottom: 6vh;
+}
+
+#experience{
+	padding: 20px 150px 20px 150px;
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+#curieux{
+	padding: 30px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+
+}
+#pinhole{
+	padding: 30px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    justify-content: center;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+}
+#captain{
+	padding: 40px 90px 40px 90px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    justify-content: center;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+}
+
+/*EDUCATION SECTION */
+
+#education h2{
+	text-align: center;
+	margin-top: 4vh;
+	font-size: 3rem;
+	margin-bottom: 6vh;
+}
+
+#education{
+	padding: 20px 150px 20px 150px;
+	text-align: center;
+	font-size: 1.1vw;
+	align-self: center;
+}
+
+#college{
+	padding: 30px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+
+}
+#twelfth{
+	padding: 30px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    font-size: 1vw;
+    justify-content: center;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+}
+#tenth{
+	padding: 40px 90px 40px 90px;
+	margin: 20px;
+	display: inline-block;
+	/*height: 25vh;*/
+	height: fit-content;
+    width: 40%;
+    font-size: 1vw;
+    justify-content: center;
+    background-color: floralwhite;
+    align-self: center;
+    box-sizing: content-box;
+}
+
+/*HOVER EFFECTS ON THE DIVS*/
+
+.box:hover{
+	border-radius: 2%;
+	font-weight: 900;
+	transition: border-radius 0.5s, font-weight 0.5s;
+	box-shadow: 0 0 30px 5px lightgray;
+}
+
+/*SKILLS SECTION*/
+
+#skills h2{
+	text-align: center;
+	margin-top: 4vh;
+	font-size: 3rem;
+	margin-bottom: 6vh;
+}
+
+#skills{
+	align-self: center;
+}
+
+#skill-div{
+	padding: 50px 150px 50px 150px;
+	text-align: center;
+	font-size: 1vw;
+	padding: 10px;
+	margin: 20px;
+	/*height: 30vh;*/
+	height: fit-content;
+    width: 40%;
+    background-color: floralwhite;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+#skill-div li{
+	font-weight: 900;
+	font-size: 1.5vw;
+}
+
+/*PHOTOGRAPHY SECTION*/
+
+#photography{
+	margin-top: 6vh;
+	margin-bottom: 6%;
+}
+
+#photography h2{
+	text-align: center;
+	margin-top: 4vh;
+	font-size: 3rem;
+	margin-bottom: 6vh;
+}
+
+.sliders{
+	
+	margin-left: 25.5% ;
+	margin-right: 25.5%;
+	justify-content: center;
+	height: 20%;
+	width: 49%;
+	display: inline-block;
+}
+
+.slider-margin{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.img-container1 {
+	width: 85%;
+	margin: 0px auto 15px auto;
+	padding: 5px;
+	text-align: center;
+}
+.img-container1 img{ 
+	height: 28%;
+	width: 17%;
+	margin: 5px;
+	display: inline-block;
+}
+
+.img-container1 img:hover{
+	/*height: 30%;*/
+	/*width: 20%;*/
+	/*transition: height 0.5s, width 0.5s*/
+	border-radius: 1%;
+	box-shadow: 0 0 30px 2px black ;
+	transition: box-shadow 0.5s, border-radius 0.5s;
+}
+
+.img-container2 {
+	width: 95%;
+	margin: 0px auto 15px auto;
+	padding: 5px;
+	text-align: center;
+}
+.img-container2 img{ 
+	height: 30%;
+	width: 25%;
+	margin: 5px;
+	display: inline-block;
+}
+
+.img-container2 img:hover{
+	height: 45%;
+	width: 30%;
+	border-radius: 1%;
+	box-shadow: 0 0 30px 3px black ;
+	transition: height 0.5s, width 0.5s, box-shadow 0.5s, border-radius 0.5s;
+}
+
+.img-container3 {
+	width: 80%;
+	margin: 15px auto -5px auto;
+	padding: 5px;
+	text-align: center;
+}
+.img-container3 img{ 
+	height: 30%;
+	width: 19%;
+	margin: 5px;
+	display: inline-block;
+}
+.img-container3 img:hover{
+	border-radius: 1%;
+	box-shadow: 0 0 30px 2px black ;
+	transition: box-shadow 0.5s, border-radius 0.5s;
+}
+
+
+/*CONTACT SECTION*/
+
+#contact{
+	margin-top: 6vh;
+}
+
+#contact h2{
+	text-align: center;
+	margin-top: 4vh;
+	font-size: 3rem;
+	margin-bottom: 6vh;
+}
+
+#contact-box{
+	/*text-align: center;*/
+	font-size: 1vw;
+	padding: 10px;
+	margin: 30px 0px 0px 0px;
+	height: 80vh;
+    width: 100%;
+    background: linear-gradient( rgb(77 132 157), rgb(107 157 180),rgb(127 157 180 / 84%), rgb(107 157 180 / 50%), rgb(243 242 229 / 100% ));
+}
+
+/*WITH SOCIAL ICONS*/
+
+#left{
+	padding: 20px;
+	margin: 0px;
+	display: inline-block;
+	height: 40vh;
+    width: 50%;
+    color: floralwhite;
+    /*background-color: floralwhite;*/
+}
+
+#left h4{
+	font-size: 1.3vw;
+
+}
+
+/*WITH THE FORM*/
+
+#right{
+	font-size: 1rem;
+	padding: 50px;
+	margin: 40px auto 30px auto;
+	display: inline-block;
+	height: fit-content;
+    width: 25%;
+    background: rgb(243 242 229 / 65%);
+    text-align: left;
+    align-content: center;
+    box-sizing: content-box;
+}
+
+#Fname {
+    height: 20%;
+    width: 70%;
+    font-size:12pt;
+    padding: 5px;
+}
+#Lname {
+    height: 20%;
+    width: 70%;
+    font-size:12pt;
+    padding: 5px;
+}
+#mail {
+    height: 20%;
+    width: 80%;
+    font-size:12pt;
+    padding: 5px;
+}
+#msg {
+    height: 12vh;
+    width: 91%;
+    font-size:12pt;
+    padding: 5px;
+}
+#right button{
+	height: 20%;
+    width: 30%;
+    font-size:12pt;
+    padding: 4px;
+    align-items: center;
+    background-color: rgb(216 223 163);
+    color: black;
+}
+#right button:hover{
+	color: rgba(216 223 163 / 1);
+	background-color: rgb(107 157 180);
+	transition: color .4s , background-color .4s;
+}
+
+/*FOOTER SECTION*/
+
+#footer-div{
+	height: 44vh;
+	/*opacity: 0.9;*/
+	background-image: url(./stuff/mash1.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*COPYRIGHT TEXT*/
+
+#footer-span p{
+	text-align: center;
+    font-weight: 1000;
+	font-size: 1.5rem;
+	/*color: rgba(245,140,103,255);*/
+	color: black;
+	background-color: floralwhite;
+	margin-bottom: 0px;
+	padding: 5px;
+	/*font-family: 'Dancing Script', cursive;*/
+	/*background-color: floralwhite;*/
+}
+
+#footer-span p a{
+	text-decoration: none;
+	color: black;
+	font-style: bold;
+	font-family: 'Dancing Script', cursive;
+}
+#footer-span p a:hover{
+	color: rgba(245,140,103,255);
+	border-bottom: 1.5px solid rgba(245,140,103,255);
+	font-weight: 900;
+	transition: color 0.5s , border-bottom 1s ;
+}
